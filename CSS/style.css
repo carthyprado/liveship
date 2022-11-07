@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #222;
+
+}
+.container{
+    overflow:  hidden;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.navbar ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.navbar li{
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-logo{
+    flex: 1;
+    font-size: 1.5rem;
+    user-select: none;
+}
+
+.navbar-toggle{
+    display: none;
+}
+
+.navbar-links:hover{
+    background-color: rgb(48, 104, 85);
+
+}
+
+.navbar-links:hover a{
+    color: black;
+}
+
+.imagew{
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+#reach{
+    width : 100%;
+    /*height: 400px;*/
+    background-color: rgb(48, 104, 85);
+    -webkit-columns: 3 250px;
+    -moz-columns: 3 250px;
+    columns: 3 250px;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    -webkit-column-rule: 2px solid #222;
+    -moz-column-rule: 2px solid #222;
+    column-rule: 2px solid #222;
+    padding: 15px;
+    color: #fff;
+}
+
+
+/*.contact{
+    font-size: 20px;
+    color : white;
+    padding-top: 15px;
+    margin-left: 15px;
+}*/
+
+section .slideimage{
+    width: 100%;
+    height: 575px;
+}
+
+h4{
+    column-span: all;
+}
+
+#availability{
+    border: 1px solid #222;
+    height: 150px;
+    background-color: black;
+    align-items: center;
+    padding-left: auto;
+    padding-right: auto;
+    overflow: hidden;
+}
+
+#availability p{
+    color: white;
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*label{
+    position: relative;
+    top: 20px;
+    left: 60px;
+    color: white;
+    
+}*/
+/*.viewform {
+    position: relative;
+}*/
+.checkin{
+    position: relative;
+    top: 20px;
+    left: 65px;
+    height: 40px;
+    color: white;
+    
+}
+
+.checkout{
+    position: relative;
+    top: 20px;
+    left: 70px;
+    height: 40px;
+    color: white;
+    
+}
+
+.adult{
+    position: relative;
+    top: 20px;
+    left: 37px;
+    height: 40px;
+    color: white;
+    
+}
+
+.children{
+    position: relative;
+    top: 20px;
+    left: 60px;
+    height: 40px;
+    color: white;
+    
+}
+
+
+.checking{
+    position: relative;
+    top: 50px;
+    height: 40px;
+    width: 15%;
+}
+
+
+.checkava{
+    position: relative;
+    top: 50px;
+    height: 40px;
+    
+}
+
+#slider-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: center;
+    overflow: hidden;
+}
+.imageg{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.slider-item{
+    margin-left: 10px;
+    color:white;
+    font-weight: 10px;
+}
+#contact{
+    position: relative;
+    height: 550px;
+    align-items: center;
+    
+
+    
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 40px;
+    margin: 50px;
+}
+.social a {
+    padding: 20px;
+    color: rgb(48, 104, 85);
+    font-size: 1.1rem;
+}
+
+.c-heading{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 150px;
+    color: white;
+}
+
+.c-inputs{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-inputs input{
+    width: 250px;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(251,251,251,0.1);
+    outline: none;
+    margin: 10px 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #f4f4f4;
+    display: flex;
+}
+
+.c-inputs textarea{
+    width: 250px;
+    height: 250px;
+    outline: none;
+    background-color: rgba(0,0,0,01);
+    border: 1px solid rgba(82,82,82,1);
+    color: #f4f4f4;
+    padding: 10px;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+.c-inputs button{
+    width: 200px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    letter-spacing: 1px;
+    margin-left: 27px;
+}
+
+.map{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 550px;
+}
+/*.mapsec{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #fff;
+
+}*/
+
+.mapsec iframe{
+    width: 100%;
+    height: 100%
+}
+
+.certified{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    
+
+}
+
+.ass img{
+    width: 100px;
+    height: 100px;
+}
+.footer {
+    width : 100%;
+    height: 200px;
+    background-color: black;
+    font-size: 15px;
+    color :white;
+    padding-top: 100px;
+    padding-left : 50px;
+}
+.terms a{
+    cursor: pointer;
+    text-decoration: none;
+    color :white;
+}
+.pp a{
+    cursor: pointer;
+    text-decoration: none;
+    color :white;
+}
+.rp a{
+    cursor: pointer;
+    text-decoration: none;
+    color :white;
+}
+.legit p i{
+    display: flex;
+    flex-direction: row;
+}
+
+.cp{
+    color: white;
+}
+.parag {
+    background-color: white;
+    margin: 50px 50px;
+    padding: 20px 20px;
+}
+
+.parag p{
+    padding-top: 20px;
+}
+
+.parag h4{
+    padding-top: 20px;
+}
+
+
+/*.terms .pp .rp{
+    position: absolute;
+    padding-right: 1000px;
+}*/
+
+
+@media only screen and (max-width: 950px){
+    #availability{
+        border: 1px solid #222;
+        height: 550px;
+        background-color: black;
+        margin-top: 0px;
+        padding-left: auto;
+        padding-right: auto;
+        
+        
+    }
+
+    .viewform{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        margin-top:0px;
+        
+    }
+
+    .viewform .checkin{
+        position: relative;
+        margin-top: 0px;
+        margin-left: -65px;
+        padding-top: 50px;
+        padding-right: 200px;
+    }
+
+    .viewform .checkout{
+        position: relative;
+        margin-top: 10px;
+        margin-left: -70px;
+        padding-top: 50px;
+        padding-right: 200px;
+    }
+
+    .viewform .adult{
+        position: relative;
+        margin-top: 10px;
+        margin-left: -34px;
+        padding-top: 50px;
+        padding-right: 200px;
+    }
+
+    .viewform .children{
+        position: relative;
+        margin-top: 10px;
+        margin-left: -58px;
+        padding-top: 50px;
+        padding-right: 200px;
+    }
+
+    .checking{
+        position: relative;
+        top: 50px;
+        height: 40px;
+        width: 90%;
+    }
+
+    .checkava{
+        position: relative;
+        top: 50px;
+        height: 40px;
+        width: 90%;
+        margin-top: 10px;
+        
+    }
+
+    .imageg{
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+        margin: 5px;
+    }
+
+    .map{
+        display: none;
+    }
+}    
+
+@media only screen and (max-width: 600px){
+    .navbar ul{
+        flex-wrap:  wrap;
+    }
+    .navbar-toggle{
+        display: block;
+    }
+    .navbar-links{
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+    .active{
+        display: block;
+    }
+    #availability{
+        border: 1px solid #222;
+        height: 550px;
+        background-color: black;
+        margin-top: 0px;
+        padding-left: auto;
+        padding-right: auto;   
+    }
+    
+    .viewform{
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+        margin-top:0px;
+        
+    }
+    .imageg{
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+        margin: 50px;
+    }
+    .slider-item{
+        margin-left: 40px;
+    }
+    #reach p{
+        padding: 10px;
+        
+    }
+
+}
